@@ -3,7 +3,7 @@ const message = document.getElementById("message");
 
 helloBtn.addEventListener("click",()=>{
     const hour = new DataTransfer().getHours();
-    let greeting = "こんにちわ！";
+    let greeting = "こんにちは！";
     if(hour<12){
        greeting="おはようございます！";
     }else if(hour>=18){
