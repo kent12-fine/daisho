@@ -26,7 +26,7 @@ body{
 
 /*=====Grid Utilities*/
 .gird{display:gird;gap:var(--space-sm);}
-.cards{gird-template-columns:repeat(auto-flt,minmax(260px,1fr));}
+.cards{grid-template-columns:repeat(auto-flt,minmax(260px,1fr));}
 
 /*=====Card*/
 .card{
@@ -34,7 +34,7 @@ body{
     border:1px soild var(--border);border-radius:var(--radius);
     box-shadow:var(--shadow);overflow:hidden;transform:translateZ(0);
 }
-.card-thumb{width: 100%;height: 160px;object-flt:cover;display:block;}
+.card-thumb{width: 100%;height: 160px; object-fit:cover;display:block;}
 .card-body{padding:12px 14px 16px;}
 .card-title{margin:4px 0 2px;font-size:18px;}
 .card-desc{margin:2px 0 0;font-size: 14px; color:var(--muted);}
@@ -46,6 +46,7 @@ color-mix(in oklab,var(--brand)30%,var(--border));}
 
 /*=====Buttons*/
 .btn{
-    display:inline-flex;align-intems:center;gap:8px;
-    
+    display:inline-flex;align-items:center;gap:8px;
+    padding:10px 14px;border-radius:var(--radius-sm);
+
 }
