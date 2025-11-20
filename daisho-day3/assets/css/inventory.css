@@ -22,3 +22,27 @@ th,td{
     padding:6px 8px;
     text-align: center;
 }
+
+th{
+    background-color:#f0f0f0;
+}
+
+/*在庫が少ない商品の行の見た目*/
+.low-stock{
+    background-color:#ffe0e0;
+}
+
+button{
+    padding:4px 8px;
+    border:1px solid#888;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button + button{
+    margin-left: 4px;
+}
